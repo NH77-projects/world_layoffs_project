@@ -1,10 +1,10 @@
 -- ===========================================
--- 2. DATA CLEANING
+-- 1. DATA CLEANING
 -- ===========================================
 
 
 -- ===========================================
--- 2.1 Standardizing columns
+-- 1.1 Standardizing Columns
 -- ===========================================
 
 -- company
@@ -57,7 +57,7 @@ USING ROUND(NULLIF(TRIM(funds_raised_millions),'')::NUMERIC, 2);
 
 
 -- ===========================================
--- 2.2 Removing duplicates
+-- 1.2 Removing Duplicates
 -- ===========================================
 
 
@@ -100,7 +100,7 @@ DROP COLUMN row_num;
 
 
 -- ===========================================
--- 2.3 Fixing corrupted entries
+-- 1.3 Fixing Corrupted Entries
 -- ===========================================
 
 
@@ -162,7 +162,7 @@ COMMIT;
 
 
 -- ===========================================
--- 2.4 Checking NULLs, and whether we can populate them.
+-- 1.4 Checking NULLs, and Trying to Repopulate
 -- ===========================================
 
 
