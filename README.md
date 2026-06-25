@@ -1,6 +1,10 @@
 World Layoffs Analysis: SQL & Power BI Project 
 
 
+ Project Flow
+Raw Data → SQL Cleaning → EDA → Views → Power BI Dashboard
+
+
 Project Overview
 
 This project covers the analysis of world layoffs between 2020 and 2023 using PostgreSQL for data cleaning and 
