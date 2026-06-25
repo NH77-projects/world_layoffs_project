@@ -31,7 +31,7 @@ The aim of the analysis was to answer:
 Tools Used
 
 PostgreSQL
-- Data cleaning
+- [Data cleaning](sql/1_cleaning_layoffs.sql)
 - Data transformation
 - Exploratory data analysis
 - Use of SQL techniques such as CTEs, functions, window functions, joins, unions, views
