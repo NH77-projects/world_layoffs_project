@@ -39,6 +39,11 @@ second-highest magnitude of layoffs in the dataset.
 */
 
 
+-- ===========================================
+-- 3.2 YoY averages
+-- ===========================================
+
+
 SELECT 
 	EXTRACT(YEAR FROM date) AS year,
 	SUM(total_laid_off) AS layoffs,
