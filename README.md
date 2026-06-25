@@ -92,16 +92,21 @@ Provides overview of global metrics of the dataset, which are:
 - Number of layoff events by year
 - Largest single layoff event
 - Average layoffs per year
-### Dashboard Screenshots
+  
 
+### Global Layoffs KPI
 ![Overview Dashboard](PowerBI/dashboard_1.png)
+
 
 2. Country Analysis
 Includes:
 - Share of layoffs and number of layoffs across countries
 - Comparison of layoffs and number of layoff events across industries with global vs United States vs India 
 
+
+### Country Analysis
 ![Country Analysis](PowerBI/dashboard_2.png)
+
 
 Year-over-Year Analysis
 Shows:
@@ -109,7 +114,10 @@ Shows:
 - Global number of layoff events across top 5 industries over periods
 - Country-specific trends of top 5 industries across years
 
+### Year-over-Year Analysis
 ![Year-over-Year Analysis](PowerBI/dashboard_3.png)
+
+
 
 Key Findings
 The main findings of the analysis include:
