@@ -1,8 +1,10 @@
 World Layoffs Analysis: SQL & Power BI Project 
 
 
+
  Project Flow
 Raw Data → SQL Cleaning → EDA → Views → Power BI Dashboard
+
 
 
 Project Overview
@@ -12,6 +14,7 @@ exploratory data analysis(EDA) and Power BI for visualization purposes.
 
 The goal of the project was to clean and standardize the raw data to identify year-over-year(YoY) trends of layoffs across 
 industries and countries, subsequently presenting the findings using an interactive dashboard.
+
 
 
 Project Objectives
@@ -24,19 +27,21 @@ The aim of the analysis was to answer:
 - What patterns were observed on YoY changes in layoffs across industries and countries?
 
 
+
 Tools Used
 
 PostgreSQL
 - Data cleaning
 - Data transformation
 - Exploratory data analysis
-- Use of SQL techniques such as CTEs, functions, window functions, joins, unions
+- Use of SQL techniques such as CTEs, functions, window functions, joins, unions, views
 
 Power BI
 - KPI
 - Interactive visualization
 - Country analysis
 - Trend analysis
+
 
 
 Data cleaning
@@ -46,6 +51,7 @@ Before the analysis the data was cleaned and standardized by:
 - Removing duplicates
 - Fixing corrupted entries
 - Checking null and empty values, and attempting to repopulate them
+
 
 
 Exploratory Data Analysis
@@ -66,6 +72,12 @@ Country analysis
 - Countries with the highest layoffs
 - Countries' dominance in global layoffs on YoY basis
 - Comparison of global, United States, and India layoffs
+
+In-Depth Analysis of 2020
+- Company analysis
+- Industry analysis
+- Country analysis
+
 
 
 Dashboard Overview
@@ -93,6 +105,7 @@ Shows:
 - Country-specific trends of top 5 industries across years
 
 
+
 Key Findings
 The main findings of the analysis include:
 - Layoffs peaked in 2022.
@@ -100,6 +113,7 @@ The main findings of the analysis include:
 - Consumer and Retail industries experienced the most layoffs.
 - Finance industry experienced the most layoff events.
 - The trend of layoffs on YoY basis varied across industries and countries.
+
 
 
 Conclusion
@@ -112,4 +126,4 @@ This project followed complete data analysis workflow:
 5. Insight Generation
 
 By utilizing PostgreSQL and Power BI, raw data was transformed into clean and structured form that explains shifts in labor 
-market labor market across regions and industries.
+market during 2020 - 2023 across regions and industries.
